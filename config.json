@@ -1,0 +1,22 @@
+{
+  "http": {
+    "unEnable": false,
+    "listenAddr": ":7080",
+    "writeTimeout": 20000,
+    "readTimeout": 20000
+  },
+  "log":{
+    "fileEnable": true,
+    "maxSizeInMB": 100,
+    "maxBackups": 10,
+    "fileName": "../var/log/envoy.log",
+    "compress": true,
+    "maxAgeDay": 7
+  },
+  "serviceConfigPath": {
+    "peer": ["/home/ap/blockchain/peer0/conf","/home/ap/blockchain/peer1/conf","/home/ap/blockchain/peer2/conf"],
+    "orderer": ["/home/ap/blockchain/orderer0/ordconf","/home/ap/blockchain/orderer1/ordconf","/home/ap/blockchain/orderer2/ordconf"],
+    "zookeeper": ["/home/ap/blockchain/zookeeper1/zkconf","/home/ap/blockchain/zookeeper2/zkconf","/home/ap/blockchain/zookeeper3/zkconf","/home/ap/blockchain/zookeeper4/zkconf","/home/ap/blockchain/zookeeper5/zkconf"],
+    "kafka": ["/home/ap/blockchain/kafka1/kconf","/home/ap/blockchain/kafka2/kconf","/home/ap/blockchain/kafka3/kconf","/home/ap/blockchain/kafka4/kconf"]
+  }
+}

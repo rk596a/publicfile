@@ -1,0 +1,202 @@
+{
+    "vmperiod": 30,
+    "serviceperiod": 30,
+    "expected": [
+        {
+            "hostname": "VM_14_14_redhat",
+            "ip": "10.209.14.14",
+            "portformetrics":"7080",
+            "services": [
+                {
+                    "servicename": "peer0.blockchain.ccb.com",
+                    "org": "Org1MSP",
+                    "type": "Peer",
+                    "path": "grpc://10.209.14.14:7051"
+                }
+            ]
+        },
+        {
+            "hostname": "VM_14_16_redhat",
+            "ip": "10.209.14.16",
+            "portformetrics": "7080",
+            "services": [
+                {
+                    "servicename": "peer1.blockchain.ccb.com",
+                    "org": "Org1MSP",
+                    "type": "Peer",
+                    "path": "grpc://10.209.14.16:7051"
+                }
+               
+            ]
+        },
+        {
+            "hostname": "VM_14_9_redhat",
+            "ip": "10.209.14.9",
+            "portformetrics": "7080",
+            "services": [
+                {
+                    "servicename": "peer2.blockchain.ccb.com",
+                    "org": "Org1MSP",
+                    "type": "Peer",
+                    "path": "grpc://10.209.14.9:7051"
+                }             
+            ]
+        },
+        {
+            "hostname": "VM_14_47_redhat",
+            "ip": "10.209.14.47",
+            "portformetrics": "7080",
+            "services": [
+                {
+                    "servicename": "orderer0",
+                    "org": "Orderer1MSP",
+                    "type": "Orderer",
+                    "path": "grpc://10.209.14.47:7050"
+                }
+            ]
+        },
+        {
+            "hostname": "VM_14_17_redhat",
+            "ip": "10.209.14.17",
+            "portformetrics": "7080",
+            "services": [
+                {
+                    "servicename": "orderer1",
+                    "org": "Orderer1MSP",
+                    "type": "Orderer",
+                    "path": "grpc://10.209.14.17:7050"
+                }
+            ]
+        },
+        {
+            "hostname": "VM_14_11_redhat",
+            "ip": "10.209.14.11",
+            "portformetrics": "7080",
+            "services": [
+                {
+                    "servicename": "orderer2",
+                    "org": "Orderer1MSP",
+                    "type": "Orderer",
+                    "path": "grpc://10.209.14.11:7050"
+                }
+            ]
+        },
+        {
+            "hostname": "VM_14_8_redhat",
+            "ip": "10.209.14.8",
+            "portformetrics": "7080",
+            "services": [
+                {
+                    "servicename": "zkconf_zookeeper1_1",
+                    "org": "N/A",
+                    "type": "Zookeeper",
+                    "path": "tcp://10.209.14.8:2181/2888/3888"
+                }
+            ]
+        },
+        {
+            "hostname": "VM_14_34_redhat",
+            "ip": "10.209.14.34",
+            "portformetrics": "7080",
+            "services": [
+                {
+                    "servicename": "zkconf_zookeeper2_1",
+                    "org": "N/A",
+                    "type": "Zookeeper",
+                    "path": "tcp://10.209.14.34:2181"
+                }
+            ]
+        },
+        {
+            "hostname": "VM_14_18_redhat",
+            "ip": "10.209.14.18",
+            "portformetrics": "7080",
+            "services": [
+                {
+                    "servicename": "zkconf_zookeeper3_1",
+                    "org": "N/A",
+                    "type": "Zookeeper",
+                    "path": "tcp://10.209.14.18:2181"
+                }
+            ]
+        },
+        {
+            "hostname": "VM_14_39_redhat",
+            "ip": "10.209.14.39",
+            "portformetrics": "7080",
+            "services": [
+                {
+                    "servicename": "zkconf_zookeeper4_1",
+                    "org": "N/A",
+                    "type": "Zookeeper",
+                    "path": "tcp://10.209.14.39:2181"
+                }
+            ]
+        },
+        {
+            "hostname": "VM_14_13_redhat",
+            "ip": "10.209.14.13",
+            "portformetrics": "7080",
+            "services": [
+                {
+                    "servicename": "zkconf_zookeeper5_1",
+                    "org": "N/A",
+                    "type": "Zookeeper",
+                    "path": "tcp://10.209.14.13:2181"
+                }
+            ]
+        },
+        {
+            "hostname": "VM_14_15_redhat",
+            "ip": "10.209.14.15",
+            "portformetrics": "7080",
+            "services": [
+                {
+                    "servicename": "kconf_kafka1_1",
+                    "org": "N/A",
+                    "type": "Kafka",
+                    "path": "tcp://10.209.14.15:9001/8092"
+                }
+            ]
+        },
+        {
+            "hostname": "VM_14_6_redhat",
+            "ip": "10.209.14.6",
+            "portformetrics": "7080",
+            "services": [
+                {
+                    "servicename": "kconf_kafka2_1",
+                    "org": "N/A",
+                    "type": "Kafka",
+                    "path": "tcp://10.209.14.6:9001/8092"
+                }
+            ]
+        },
+        {
+            "hostname": "VM_14_12_redhat",
+            "ip": "10.209.14.12",
+            "portformetrics": "7080",
+            "services": [
+                {
+                    "servicename": "kconf_kafka3_1",
+                    "org": "N/A",
+                    "type": "Kafka",
+                    "path": "tcp://10.209.14.12:9001/8092"
+                }
+            ]
+        },
+        {
+            "hostname": "VM_14_2_redhat",
+            "ip": "10.209.14.2",
+            "portformetrics": "7080",
+            "services": [
+                {
+                    "servicename": "kconf_kafka4_1",
+                    "org": "N/A",
+                    "type": "Kafka",
+                    "path": "tcp://10.209.14.2:9001/8092"
+                }
+            ]
+        }
+    ]
+}
